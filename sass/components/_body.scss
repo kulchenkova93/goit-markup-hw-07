@@ -1,0 +1,29 @@
+body {
+  background-color: $primary-white-color;
+  color: $primary-text-color;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: $font-family;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,14 @@
+.logo {
+  font-family: Raleway, cursive;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+
+  &-black {
+    color: $title-text-color;
+  }
+  &-blue {
+    color: $accent-color;
+  }
+}

@@ -1,0 +1,170 @@
+.footer-bg {
+  background-color: $footerColor;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-footer {
+  display: flex;
+}
+.footer-logo {
+  margin-top: 60px;
+}
+.footer-text {
+  margin-top: 60px;
+}
+.logo-white {
+  color: $primary-white-color;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-blue {
+  color: $accent-color;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  white-space: nowrap;
+}
+.adress {
+  background-color: #2f303a;
+  color: $primary-white-color;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.03em;
+
+  &-item {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+  &-contact {
+    background-color: $footerColor;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+  }
+}
+
+.add {
+  display: flex;
+  margin-left: 69px;
+
+  &-item {
+    display: block;
+    content: "";
+    height: 44px;
+    width: 44px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-position: center;
+  }
+  &-text {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+  }
+}
+
+.footer-link {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-left: 0px;
+}
+
+.join {
+  margin-top: 72px;
+  margin-left: 69px;
+  margin-bottom: 100px;
+
+  &-icon {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.add-item:not(:last-child) {
+  padding-right: 34px;
+}
+
+.footer-links {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  content: "";
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: $primary-white-color;
+  transition: 250ms background-color cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
+}
+
+.subscribe {
+  margin-top: 72px;
+  margin-left: 94px;
+}
+.form-input {
+  width: 358px;
+  height: 50px;
+  left: 814px;
+  top: 1736px;
+  padding-left: 16px;
+  background: $footerColor;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.mail-item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: $accent-color;
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.icon-mail {
+  margin-left: 10px;
+}
